@@ -44,6 +44,12 @@ body {
 
 label {
     width: 100%;
+    align-items: start;
+    font-weight: 450;
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .background-section {
