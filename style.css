@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #f2f1f5!important;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.profile-image {
+    width: 80px;
+    height: 80px; 
+}
+
+@media (max-width: 576px) {
+    .profile-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .col-12 {
+        text-align: center; /* Center-align text and image on small screens */
+    }
+}
+.form-control{
+    background-color: #fff;
+    border: 0px solid #fff !important;
+    align-items: start;
+}
+label {
+    width: 100%;
+  }
+
+   .background-section {
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 575px) {
+    .background-section {
+      display: none;
+    }
+  }
