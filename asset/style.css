@@ -113,6 +113,13 @@ label {
     font-style: normal;
 }
 
+.background-section {
+    height: 10vh;
+    background-image: url('./img/location.png');
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 576px) {
     .profile-image {
         width: 80px;
