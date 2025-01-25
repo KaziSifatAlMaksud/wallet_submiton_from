@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f0eff4 !important;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+}
+
+.text-tittle {
+    font-weight: 650;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+
+
+@media (max-width: 575px) {
+    .text-tittle {
+        font-size: 35px;
+        line-height: 1.5;
+        padding: 0 15px;
+    }
+}
+
+
+/* Mambership Page */
+
+.form-control {
+    background-color: #fff;
+    border: 0px solid #fff !important;
+    align-items: start;
+    font-weight: 800;
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+label {
+    width: 100%;
+}
+
+.background-section {
+    background-size: cover;
+    background-position: center;
+}
+
+.rounded-extra {
+    border-radius: 15px !important;
+}
+
+.custom_hr {
+    border: 1px solid #ffffff !important;
+}
+
+.custom-submit-btn {
+    width: 50%;
+}
+
+@media (min-width: 992px) {
+    .custom-submit-btn {
+        width: 25%;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .background-section {
+        display: none;
+    }
+}
+
+/** Wallet Card **/
+
+.wallet-card label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.wallet-tittle {
+    font-size: 34px;
+    font-weight: 400 !important;
+    color: #000000;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.wallet-card p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.my-membership {
+    font-weight: 500;
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+@media (max-width: 576px) {
+    .profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .col-12 {
+        text-align: center;
+    }
+}
+
+.bg-red {
+    background-color: #dc092e !important;
+}
+
+.img-store .custom-image {
+    max-width: 200px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .custom-image {
+        max-width: 120px;
+        /* Adjust this value as needed */
+    }
+}
